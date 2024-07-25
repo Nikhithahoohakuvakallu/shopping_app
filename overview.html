@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+    <style>
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cart-table td, .cart-table th {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .cart-table img {
+            max-width: 100px;
+        }
+        .cart-table select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+        .cart-table .total-row {
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1 style="font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;">Shopping <span style="color: rgb(225, 82, 11);">Cart</span></h1>
+    </header>
+
+    <main>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th style="background: black;
+  color: white;">Cart Totals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/aa1.png" alt="Description of image"></td>
+                    <td>Campus Shoes - Yellow</td>
+                    <td>$65</td>
+                    <td>
+                        <select onchange="updateSubtotal(this)">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td class="subtotal">$65</td>
+                    <td style="background: black;
+  color: white;" id="cart-subtotal1"><p>Total</p>$65</td>
+                </tr>
+                <tr>
+                    <td><img src="images/f7.png" alt="Description of image"></td>
+                    <td>Golf T-shirt</td>
+                    <td>$25</td>
+                    <td>
+                        <select onchange="updateSubtotal(this)">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td class="subtotal">$25</td>
+                    <td style="background: black;
+  color: white;" id="cart-subtotal2"><p>Total</p>$25</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="total-row">
+                    <td colspan="4"></td>
+                    <td>Total</td>
+                    <td style="background: black;
+  color: white;" id="total">$130</td>
+                </tr>
+            </tfoot>
+            
+        </table>
+    </main>
+    
+
+    <div class="banner">
+          <a href="overview.html" class="shop-button-link">
+            <button class="shop-button">Coupun Code </button>
+        </a>
+        <a href="overview.html" class="shop-button-link">
+          <button style="color: #fff;background-color: #e8634e;" class="shop-button">Apply Coupun</button>
+      </a>
+      </div>
+  </div>
+
+</div>
+<div class="icon">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="icon1">
+                          <img src="images/twenty.png" alt="Discount Icon">
+                      </div>
+                      <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                      <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="col-md-4 text-center">
+                      <div class="icon1">
+                          <img src="images/free.png" alt="Free Shipping Icon">
+                      </div>
+                      <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                      <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="icon1">
+                          <img src="images/secure1.png" alt="Secure Payment Icon">
+                      </div>
+                      <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                      <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<style>
+.icon1 {
+  display: flex;
+  color: white;
+  padding: 50px;
+}
+.btn-orange {
+  background-color: #d27134;
+  border-color: #d27134;
+  color: white;
+}
+.customer h1 {
+  text-align: center;
+  font-size: 26px;
+}
+.cost p, .customer2 p {
+  text-align: center;
+}
+</style>
+  
+  
+<style>.banner {
+  /* text-align: center;  */
+  margin: 20px; 
+  padding: 10px; 
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  font-size: 19px;
+  border-radius: 12px;
+}
+
+</style>
+
+
+
+
+    <script>
+        function updateSubtotal(selectElement) {
+            var row = selectElement.closest('tr');
+            var price = parseFloat(row.cells[2].innerText.replace('$', ''));
+            var quantity = parseInt(selectElement.value);
+            var subtotal = price * quantity;
+            row.cells[4].innerText = '$' + subtotal.toFixed(2);
+
+            // Update cart subtotal for each product
+            if (row.rowIndex === 1) {
+                document.getElementById('cart-subtotal1').innerText = '$' + subtotal.toFixed(2);
+            } else if (row.rowIndex === 2) {
+                document.getElementById('cart-subtotal2').innerText = '$' + subtotal.toFixed(2);
+            }
+
+            updateTotal();
+        }
+
+        function updateTotal() {
+            var total = 0;
+            var subtotals = document.querySelectorAll('.subtotal');
+            subtotals.forEach(function(cell) {
+                total += parseFloat(cell.innerText.replace('$', ''));
+            });
+            document.getElementById('total').innerText = '$' + total.toFixed(2);
+        }
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+
+
+
+
+  
+</body>
+</html>

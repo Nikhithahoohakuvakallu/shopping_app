@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohti Online Store</title>
+    <link rel="shortcut icon" href="images/favicon1.png">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font.css"/>
+    <link rel="stylesheet" type="text/css" href="css/libs/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/kn_IN/sdk.js#xfbml=1&version=v11.0" nonce="xgnUd3Tw"></script>
+
+    <style>
+        .banner {
+            display: flex;
+            background-color: #d27134;;
+            color: white;
+            padding: 62px;
+        }
+        .banner-text {
+            flex: 1;
+            text-align: left;
+        }
+        .banner-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .banner-text p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .banner-image {
+            flex: 1;
+            text-align: right;
+        }
+        .banner-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .banner button {
+            background-color: white;
+            color: #d27134;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .banner button:hover {
+            background-color: #f1f1f1;
+        }
+        .custom-btn {
+            text-decoration: none;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .custom-btn:hover {
+            background-color: #d27134;
+        }
+        .icon1 {
+            display: flex;
+            color: white;
+            padding: 50px;
+        }
+        .btn-orange {
+            background-color: #d27134;
+            border-color: #d27134;
+            color: white;
+        }
+        .customer h1 {
+            text-align: center;
+            font-size: 26px;
+        }
+        .cost p, .customer2 p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <div class="banner-text">
+                <p>Get 20% sales on all Products</p>
+                <h1>The Molti Online Store</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+                <a href="overview.html" class="shop-button-link">
+                  <button class="shop-button">Shop Products</button>
+              </a>
+            </div>
+            <div class="banner-image">
+                <img src="images/shopping.png" alt="Mohti Online Store Image">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="background" style="background: #efe9e9;">
+                <div class="photo-div2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="banner">
+                                    <div class="banner-text">
+                                        <p>New Release</p>
+                                        <h3>Women Collection</h3>
+                                        <a href="#" class="custom-btn">Shop Now</a>
+                                    </div>
+                                    <div class="banner-image">
+                                        <img src="images/a2.png" alt="Women Collection">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="banner">
+                                    <div class="banner-text">
+                                        <p>New Release</p>
+                                        <h3>Men Collection</h3>
+                                        <a href="#" class="custom-btn">Shop Now</a>
+                                    </div>
+                                    <div class="banner-image">
+                                        <img src="images/a1.png" alt="Men Collection">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="banner">
+                                    <div class="banner-text">
+                                        <p>New Release</p>
+                                        <h3>Fashion Collection</h3>
+                                        <a href="#" class="custom-btn">Shop Now</a>
+                                    </div>
+                                    <div class="banner-image">
+                                        <img src="images/gogglec.png" alt="Fashion Collection">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>Customer <span style="color: rgb(225, 82, 11);">Satisfaction</span></h1>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="cost">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <p>Lorem Ipsum is typesetting industry.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="icon1">
+                                            <img src="images/twenty.png" alt="Discount Icon">
+                                        </div>
+                                        <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                                        <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="icon1">
+                                            <img src="images/free.png" alt="Free Shipping Icon">
+                                        </div>
+                                        <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                                        <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="icon1">
+                                            <img src="images/secure1.png" alt="Secure Payment Icon">
+                                        </div>
+                                        <h4 style="text-align: center;font-size: 18px;margin-top: -60px;">24/7 Live Chat</h4>
+                                        <p style="text-align: center;font-size: 13px;">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="customer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="font-size: 30px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;">Featured <span style="color: rgb(225, 82, 11);">Products</span></h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="cost1">
+                                    <p style="font-size: 15px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is typesetting industry.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-div2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="compl1">
+                                    <a href="#" class="group1">
+                                        <img src="images/s1.png" class="img-fluid" alt="Shirt Image">
+                                    </a>
+                                    <h1 style="font-size: 21px;
+  text-align: center;color: #000;">Winter Hoodies</h1>
+                                    <div>
+                                        <button class="btn btn-orange" style="display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;">Select Options</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="compl1">
+                                    <a href="#" class="group1">
+                                        <img src="images/s2.png" class="img-fluid" alt="Shirt Image">
+                                    </a>
+                                    <h1 style="font-size: 21px;
+  text-align: center;color: #000;"> Polo T-shirt-Yellow</h1>
+                                    <div>
+                                        <button class="btn btn-orange" style="display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="compl1">
+                                    <a href="#" class="group1">
+                                        <img src="images/s3.png" class="img-fluid" alt="Shoe Image">
+                                    </a>
+                                    <h1 style="font-size: 21px;
+  text-align: center;color: #000;">Campus Shoes - Yellow</h1>
+                                    <div>
+                                        <button class="btn btn-orange" style="display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="compl1">
+                                    <a href="#" class="group1">
+                                        <img src="images/s4.png" class="img-fluid" alt="Shoe Image">
+                                    </a>
+                                    <h1 style="font-size: 21px;
+  text-align: center;color: #000;">Sports Shoes</h1>
+                                    <div>
+                                        <button class="btn btn-orange" style="display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<style>
+  .cmp1 h1{font-size: 21px;
+  text-align: center;}
+</style>
+
+
+<article1 style="background-color: #dbcece;">
+        <div class="customer2" style="background: rgb(224, 212, 212);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="color: blue;">THE ESSENTIALS</p>
+                        <!-- <h1 style="text-align: center;font-size: 27px;">Browse The Essential Collection</h1> -->
+                        <h1 style="text-align: center; font-size: 27px;">
+                          Browse The <span style="color: rgb(212, 102, 47);">Essential</span> Collection
+                      </h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="cost2">
+                                    <p style="font-size: 15px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is typesetting industry.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="icon" style="background: #efe9e9;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="icon1">
+                                  <img src="images/men_image.png" alt="Discount Icon">
+                              </div>
+                          </div>
+                          <div class="col-md-4 text-center">
+                              <div class="icon1">
+                                  <img src="images/women_image.png" alt="Free Shipping Icon">
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="icon1">
+                                  <img src="images/kid_image.png" alt="Secure Payment Icon">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</article1>
+
+
+<div class="customer1">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h1 style="font-size: 27px;
+              margin-top: 20px;
+              margin-bottom: 20px;">Trending <span style="color: rgb(227, 86, 15);">Products</span></h1>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="cost1">
+                          <p style="font-size: 15px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is typesetting industry.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="photo-div2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="compl1">
+                        <a href="#" class="group1">
+                            <img src="images/s3.png" class="img-fluid" alt="Shirt Image">
+                        </a>
+                        <h1 style="font-size: 21px;
+text-align: center;color: #000;">Campus Shoes - Yellow</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$65.00</p>
+                        <div>
+                            <button class="btn btn-orange" style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;">Select Options</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="compl1">
+                        <a href="#" class="group1">
+                            <img src="images/s1.png" class="img-fluid" alt="Shirt Image">
+                        </a>
+                        <h1 style="font-size: 21px;
+text-align: center;color: #000;">Winter Hoodies</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$25.00</p>
+                        <div>
+                            <button class="btn btn-orange" style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="compl1">
+                        <a href="#" class="group1">
+                            <img src="images/f1.png" class="img-fluid" alt="Shoe Image">
+                        </a>
+                        <h1 style="font-size: 21px;
+text-align: center;color: #000;">Gulf T-Shirt</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$25.00</p>
+                        <div>
+                            <button class="btn btn-orange" style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="compl1">
+                        <a href="#" class="group1">
+                            <img src="images/f3.png" class="img-fluid" alt="Shoe Image">
+                        </a>
+                        <h1 style="font-size: 21px;
+text-align: center;color: #000;">Sweater Colorful</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$29.00</p>
+                        <div>
+                            <button class="btn btn-orange" style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="photo-div2" style="padding-top: 50px;padding-bottom: 58px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="compl1">
+                  <a href="#" class="group1">
+                      <img src="images/s2.png" class="img-fluid" alt="Shirt Image">
+                  </a>
+                  <h1 style="font-size: 21px;
+text-align: center;color: #000;">Polo T-shirt-Yellow</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$20.00</p>
+                  <div>
+                      <button class="btn btn-orange" style="display: block;
+                      margin-left: auto;
+                      margin-right: auto;">Select Options</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="compl1">
+                  <a href="#" class="group1">
+                      <img src="images/s4.png" class="img-fluid" alt="Shirt Image">
+                  </a>
+                  <h1 style="font-size: 21px;
+text-align: center;color: #000;">Sports Shoes</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$39.00</p>
+                  <div>
+                      <button class="btn btn-orange" style="display: block;
+                      margin-left: auto;
+                      margin-right: auto;">Add to cart</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="compl1">
+                  <a href="#" class="group1">
+                      <img src="images/f4.png" class="img-fluid" alt="Shoe Image">
+                  </a>
+                  <h1 style="font-size: 21px;
+text-align: center;color: #000;">Nike Shoes</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$69.00</p>
+                  <div>
+                      <button class="btn btn-orange" style="display: block;
+                      margin-left: auto;
+                      margin-right: auto;">Add to cart</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="compl1">
+                  <a href="#" class="group1">
+                      <img src="images/f5.png" class="img-fluid" alt="Shoe Image">
+                  </a>
+                  <h1 style="font-size: 21px;
+text-align: center;color: #000;">Sneaker Skater Shoes</h1>
+<p style="font-size: 21px;
+text-align: center;color: orange;">$40.00</p>
+                  <div>
+                      <button class="btn btn-orange" style="display: block;
+                      margin-left: auto;
+                      margin-right: auto;">Add to cart</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <script type="text/javascript">
+        // Make ColorBox responsive
+        jQuery.colorbox.settings.maxWidth  = '95%';
+        jQuery.colorbox.settings.maxHeight = '95%';
+
+        // ColorBox resize function
+        var resizeTimer;
+        function resizeColorBox() {
+            if (resizeTimer) clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                if (jQuery('#cboxOverlay').is(':visible')) {
+                    jQuery.colorbox.load(true);
+                }
+            }, 300);
+        }
+
+        // Resize ColorBox when resizing window or changing mobile device orientation
+        jQuery(window).resize(resizeColorBox);
+        window.addEventListener("orientationchange", resizeColorBox, false);
+    </script>
+</body>
+</html>
