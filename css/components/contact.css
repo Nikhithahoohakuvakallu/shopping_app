@@ -1,0 +1,19 @@
+.in-contact {
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  .in-contact .t-logo {
+    margin-left: auto;
+    position: relative;
+    top: -180px;
+    margin-bottom: -230px; }
+  .in-contact .in-contact1 {
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 29px; }
+  .in-contact .c1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #e31e24;
+    font-weight: 600; }
+
+/*# sourceMappingURL=contact.css.map */

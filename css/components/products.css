@@ -1,0 +1,85 @@
+.in-products1 {
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  .in-products1 .t-logo {
+    margin-left: auto;
+    position: relative;
+    top: -180px;
+    margin-bottom: -230px; }
+  .in-products1 h1 {
+    margin: 0px;
+    text-align: left;
+    color: #e31e24;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .in-products1 .prod1 {
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 84%, #70a41d 84%, #70a41d 100%);
+    border: 3px solid #70a41d;
+    text-align: center;
+    padding-top: 35px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    margin-bottom: 30px; }
+    .in-products1 .prod1 img {
+      margin-left: auto;
+      margin-right: auto; }
+    .in-products1 .prod1 h2 {
+      margin: 0px;
+      font-size: 24px;
+      color: #456d06;
+      margin-top: 20px;
+      font-weight: 600; }
+    .in-products1 .prod1 .prod-det {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-top: 15px;
+      color: #fff; }
+      .in-products1 .prod1 .prod-det h5 {
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 600; }
+      .in-products1 .prod1 .prod-det h6 {
+        margin: 0px;
+        font-size: 15px;
+        margin-top: 5px; }
+
+.pg-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  display: block;
+  border: 1px solid #74bc02;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px; }
+  .pg-list li {
+    display: inline-block;
+    margin: 0px;
+    padding: 20px;
+    transform: skewX(-20deg);
+    border-right: 1px solid #74bc02;
+    margin-left: -5px; }
+    .pg-list li img {
+      display: inline;
+      transform: skewX(20deg); }
+    .pg-list li:first-child img {
+      margin-right: 10px; }
+    .pg-list li:last-child img {
+      margin-left: 10px; }
+    .pg-list li:last-child {
+      border-right: none; }
+    .pg-list li span {
+      transform: skewX(20deg); }
+    .pg-list li:hover, .pg-list li.active {
+      background: #609901; }
+    .pg-list li a {
+      text-decoration: none;
+      color: #54574f; }
+    .pg-list li:hover a, .pg-list li.active a {
+      color: #fff; }
+
+/*# sourceMappingURL=products.css.map */

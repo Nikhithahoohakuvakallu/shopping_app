@@ -1,0 +1,71 @@
+.in-recipes-div1 {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .in-recipes-div1 h1 {
+    margin: 0px;
+    font-size: 36px;
+    border-left: 5px solid #97F089;
+    padding-left: 20px;
+    margin-bottom: 20px; }
+  .in-recipes-div1 .in-recipes-det1 {
+    background: #F5F5F5;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top: -5%;
+    position: relative;
+    z-index: 2; }
+    .in-recipes-div1 .in-recipes-det1:hover {
+      background: #fdf2f2; }
+    .in-recipes-div1 .in-recipes-det1 h2 {
+      margin: 0px;
+      font-size: 27px;
+      text-transform: uppercase;
+      color: #219F0D;
+      margin-bottom: 10px; }
+    .in-recipes-div1 .in-recipes-det1 .read-more1 {
+      padding-bottom: 5px;
+      display: inline-block;
+      border-bottom: 1px solid #219F0D; }
+      .in-recipes-div1 .in-recipes-det1 .read-more1 a {
+        text-decoration: none;
+        color: #219F0D; }
+      .in-recipes-div1 .in-recipes-det1 .read-more1:hover {
+        border-color: #e31e24; }
+      .in-recipes-div1 .in-recipes-det1 .read-more1:hover a {
+        color: #e31e24; }
+
+.in-recipes-div2 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  background: #F5F5F5;
+  padding-left: 70px;
+  padding-bottom: 70px; }
+  .in-recipes-div2 h1 {
+    margin: 0px;
+    font-size: 30px;
+    color: #000000;
+    background: url(../images/recipe-line.jpg) no-repeat bottom left;
+    padding-bottom: 15px;
+    padding-top: 70px; }
+  .in-recipes-div2 h2 {
+    margin: 0px;
+    font-size: 24px;
+    color: #219F0D;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .in-recipes-div2 .rec-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
+    .in-recipes-div2 .rec-list li {
+      background: url(../images/rec-list.png) no-repeat top 7px left;
+      padding-left: 20px;
+      padding-bottom: 12px; }
+  .in-recipes-div2 .rec-img {
+    border-radius: 50%;
+    border: 8px solid #97F089;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -50px; }
+
+/*# sourceMappingURL=recipes.css.map */
